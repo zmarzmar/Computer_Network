@@ -1,0 +1,14 @@
+# 컴파일 산출물
+p4
+*.o
+*.out
+a.out
+
+# 실행 로그
+*.log
+
+# macOS
+.DS_Store
+
+# Claude Code 로컬 설정
+.claude/
