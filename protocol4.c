@@ -53,8 +53,6 @@ int main(int argc, char **argv) {
 
     setvbuf(stdout, NULL, _IOLBF, 0);
     init_network(name, my_port, peer_port);
-    enable_keyboard();
-    wait_for_start();
     protocol4();
     return 0;
 }
